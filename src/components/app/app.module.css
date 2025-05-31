@@ -1,0 +1,23 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 15px;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    padding: 10px;
+    border: 2px solid cornflowerblue;
+    border-radius: 10px;
+}
+
+.input {
+    height: 20px;
+    padding: 5px;
+    font-size: 1em;
+    line-height: 1.1;
+  }
