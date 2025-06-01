@@ -1,0 +1,21 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+}
+
+.table {
+    table-layout: fixed;
+    width: 200px;
+}
+
+.table,
+.table__cell {
+    border-collapse: collapse;
+}
+
+.table__cell {
+    padding: 10px;
+    border: 2px solid #51c98f
+}
